@@ -7,6 +7,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::prefix('ministerios-bendicion')->group(function () {
+    Route::view('/', 'frontend.mb.pages.inicio')->name('mb.inicio');
+    Route::view('sobre-nosotros', 'frontend.mb.pages.sobre-nosotros')->name('mb.sobre-nosotros');
+    Route::prefix('sobre-nosotros')->group(function () {
+        Route::view('declaracion-doctrinal', 'frontend.mb.pages.declaracion-doctrinal')->name('mb.declaracion-doctrinal');
+    });
+    Route::view('equipo-paulino', 'frontend.mb.pages.equipo-paulino')->name('mb.equipo-paulino');
+    Route::view('red-iglesias', 'frontend.mb.pages.red-iglesias')->name('mb.red-iglesias');
+    Route::view('contacto', 'frontend.mb.pages.contacto')->name('mb.contactos');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
