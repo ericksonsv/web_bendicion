@@ -2,7 +2,7 @@
     <nav class="navbar bg-base-100 shadow sticky top-0">
         <div class="flex-1">
             <a href="{{ route('rb.inicio') }}">
-                <img src="{{ asset('images/logo-bendicion.svg') }}" class="h-12" alt="MB">
+                <img src="{{ asset('images/LogoRedBendicion.png') }}" class="h-12" alt="MB">
             </a>
             <a href="https://ccb-cloud.net/" target="_blank"
                 class="btn btn-outline btn-warning btn-sm ml-4">CCB Cloud</a>
