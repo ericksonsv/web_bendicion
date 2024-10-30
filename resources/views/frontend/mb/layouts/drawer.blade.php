@@ -10,12 +10,18 @@
       <x-frontend.mb.layouts.navigation-link :href="route('mb.sobre-nosotros')" :active="request()->routeIs('mb.sobre-nosotros')">
           {{ __('Sobre Nosotros') }}
       </x-frontend.mb.layouts.navigation-link>
-      <x-frontend.mb.layouts.navigation-link :href="route('mb.equipo-paulino')" :active="request()->routeIs('mb.equipo-paulino')">
+      {{-- <x-frontend.mb.layouts.navigation-link :href="route('mb.equipo-paulino')" :active="request()->routeIs('mb.equipo-paulino')">
           {{ __('Equipo Paulino') }}
+      </x-frontend.mb.layouts.navigation-link> --}}
+      <x-frontend.mb.layouts.navigation-link href="#" :active="request()->routeIs('mb.equipo-paulino')">
+        {{ __('Fundación Educativa Bendición') }}
       </x-frontend.mb.layouts.navigation-link>
-      <x-frontend.mb.layouts.navigation-link :href="route('mb.red-iglesias')" :active="request()->routeIs('mb.red-iglesias')">
+      <x-frontend.mb.layouts.navigation-link href="#" :active="request()->routeIs('mb.equipo-paulino')">
+        {{ __('Agua Bendición') }}
+      </x-frontend.mb.layouts.navigation-link>
+      {{-- <x-frontend.mb.layouts.navigation-link :href="route('mb.red-iglesias')" :active="request()->routeIs('mb.red-iglesias')">
           {{ __('Red de Iglesias') }}
-      </x-frontend.mb.layouts.navigation-link>
+      </x-frontend.mb.layouts.navigation-link> --}}
       <x-frontend.mb.layouts.navigation-link :href="route('mb.contactos')" :active="request()->routeIs('mb.contactos')">
           {{ __('Contactos') }}
       </x-frontend.mb.layouts.navigation-link>
