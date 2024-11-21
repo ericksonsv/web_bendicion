@@ -22,7 +22,7 @@
                         </svg>
                         <h1 class="mb-5 text-2xl font-bold text-center">Dirección</h1>
                         <p class="mb-5 text-center">
-                            Calle 6ª #20, esquina Emilie Boyrie de Moya, Evaristo Morales, Santo Domingo,
+                            Calle 6-A #20, esquina Emil Boyrie de Moya, Evaristo Morales, Santo Domingo,
                             República Dominicana
                         </p>
                     </div>

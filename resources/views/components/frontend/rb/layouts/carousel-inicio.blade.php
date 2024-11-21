@@ -6,10 +6,7 @@
                 <div class="hero-overlay bg-gray-950 bg-opacity-90"></div>
                 <div class="hero-content text-neutral-content text-center">
                     <div class="max-w-7xl px-6">
-                    <h1 class="mb-5 text-3xl lg:text-5xl font-bold wow animate__animated animate__fadeInDown">Conectados unos a otros</h1>
-                    <p class="text-lg lg:text-2xl wow animate__animated animate__fadeInUp">
-                        Red de iglesias formadas por comunidades de fe representantes del reino. Pablo despliega y revela el misterio que estaba escondido “la iglesia” como parte del plan de Dios para crear de dos pueblos (judíos y gentiles) un solo pueblo.
-                    </p>
+                    <h1 class="mb-5 text-3xl lg:text-5xl font-bold wow animate__animated animate__fadeInDown">Establecidos en el Evangelio</h1>
                     </div>
                 </div>
             </div>
@@ -19,10 +16,7 @@
                 <div class="hero-overlay bg-gray-950 bg-opacity-90"></div>
                 <div class="hero-content text-neutral-content text-center">
                     <div class="max-w-7xl px-6">
-                    <h1 class="mb-5 text-3xl lg:text-5xl font-bold wow animate__animated animate__fadeInDown">Hospitalidad</h1>
-                    <p class="text-lg lg:text-2xl wow animate__animated animate__fadeInUp">
-                        Las comunidades funcionan como una familia de familias, donde el amor, la hospitalidad-familiaridad, el cuidado de todos… caracterizan su diario vivir.
-                    </p>
+                    <h1 class="mb-5 text-3xl lg:text-5xl font-bold wow animate__animated animate__fadeInDown">Multiplicando Comunidades Kerigmáticas</h1>
                     </div>
                 </div>
             </div>
@@ -32,10 +26,7 @@
                 <div class="hero-overlay bg-gray-950 bg-opacity-90"></div>
                 <div class="hero-content text-neutral-content text-center">
                     <div class="max-w-7xl px-6">
-                    <h1 class="mb-5 text-3xl lg:text-5xl font-bold wow animate__animated animate__fadeInDown">Iglesia en casa</h1>
-                    <p class="text-lg lg:text-2xl wow animate__animated animate__fadeInUp">
-                        Transformar vidas a través del evangelio conectados en pequeñas comunidades formando una red de iglesias en continua multiplicación, procurando el bienestar de cada ciudad.
-                    </p>
+                    <h1 class="mb-5 text-3xl lg:text-5xl font-bold wow animate__animated animate__fadeInDown">Conectados en Red</h1>
                     </div>
                 </div>
             </div>
@@ -45,10 +36,7 @@
                 <div class="hero-overlay bg-gray-950 bg-opacity-90"></div>
                 <div class="hero-content text-neutral-content text-center">
                     <div class="max-w-7xl px-6">
-                    <h1 class="mb-5 text-3xl lg:text-5xl font-bold wow animate__animated animate__fadeInDown">Establecidos en el evangelio</h1>
-                    <p class="text-lg lg:text-2xl wow animate__animated animate__fadeInUp">
-                        Creemos que la iglesia es columna y baluarte de la verdad. Esta verdad fue confiada a los apóstoles y estos la transmitieron fielmente a la iglesia, a través de las escrituras podemos ser salvos y capacitados para toda buena obra. Este depósito debe ser preservado y transmitido por todas las iglesias hasta que Cristo venga otra vez.
-                    </p>
+                    <h1 class="mb-5 text-3xl lg:text-5xl font-bold wow animate__animated animate__fadeInDown">Procurando el Bienestar de la Ciudad</h1>
                     </div>
                 </div>
             </div>

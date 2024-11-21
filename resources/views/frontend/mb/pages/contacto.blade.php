@@ -22,7 +22,7 @@
                         </svg>
                         <h1 class="mb-5 text-2xl font-bold text-center">Dirección</h1>
                         <p class="mb-5 text-center">
-                            Calle 6ª #20, esquina Emilie Boyrie de Moya, Evaristo Morales, Santo Domingo,
+                            Manzana 40 #1, Las Caobas, Santo Domingo Oeste,
                             República Dominicana
                         </p>
                     </div>
@@ -42,7 +42,7 @@
                         </svg>
                         <h1 class="mb-5 text-2xl font-bold text-center">Teléfono</h1>
                         <p class="mb-5 text-center">
-                            <a href="tel:809-566-6628">809-566-6628</a>
+                            <a href="tel:809-561-5864">809-561-5864</a>
                         </p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                         </svg>
                         <h1 class="mb-5 text-2xl font-bold text-center">Correo</h1>
                         <p class="mb-5 text-center">
-                            <a href="mailto:rb@mb-rd.org">rb@mb-rd.org</a>
+                            <a href="mailto:admmb@mb-rd.org">admmb@mb-rd.org</a>
                         </p>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
 
     <!-- Mapa -->
     <section class="border rounded-2xl shadow">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d236.52822389787076!2d-69.94462394851836!3d18.463193221613558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sdo!4v1723483563105!5m2!1sen!2sdo" class="w-full" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d795.5117303933129!2d-69.99256250191335!3d18.4785473017471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8a7bac188b85%3A0x270175be7bcdfb97!2sIglesia%20Centro%20Cristiano%20Bendicion!5e0!3m2!1sen!2sdo!4v1731033487168!5m2!1sen!2sdo" class="w-full" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
 </x-frontend.mb.layouts.app>

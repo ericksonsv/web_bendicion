@@ -4,6 +4,9 @@
       <a href="{{ route('rb.inicio') }}" class="mb-6">
           <img src="{{ asset('images/logo-bendicion.svg') }}" class="h-12" alt="MB">
       </a>
+      <x-frontend.mb.layouts.navigation-link :href="route('portada')" :active="request()->routeIs('portada')">
+        {{ __('Portada') }}
+      </x-frontend.mb.layouts.navigation-link>
       <x-frontend.rb.layouts.navigation-link :href="route('rb.inicio')" :active="request()->routeIs('rb.inicio')">
           {{ __('Inicio') }}
       </x-frontend.rb.layouts.navigation-link>
@@ -13,7 +16,7 @@
       <x-frontend.rb.layouts.navigation-link :href="route('rb.equipo-paulino')" :active="request()->routeIs('rb.equipo-paulino')">
           {{ __('Equipo Paulino') }}
       </x-frontend.rb.layouts.navigation-link>
-      <x-frontend.rb.layouts.navigation-link href="#" :active="request()->routeIs('rb.red-iglesias')">
+      <x-frontend.rb.layouts.navigation-link :href="route('rb.proyectos')" :active="request()->routeIs('rb.proyectos')">
           {{ __('Proyectos') }}
       </x-frontend.rb.layouts.navigation-link>
       <x-frontend.rb.layouts.navigation-link :href="route('rb.contactos')" :active="request()->routeIs('rb.contactos')">

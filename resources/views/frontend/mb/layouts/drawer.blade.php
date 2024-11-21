@@ -4,6 +4,9 @@
       <a href="{{ route('mb.inicio') }}" class="mb-6">
           <img src="{{ asset('images/logo-bendicion.svg') }}" class="h-12" alt="MB">
       </a>
+      <x-frontend.mb.layouts.navigation-link :href="route('portada')" :active="request()->routeIs('portada')">
+        {{ __('Portada') }}
+      </x-frontend.mb.layouts.navigation-link>
       <x-frontend.mb.layouts.navigation-link :href="route('mb.inicio')" :active="request()->routeIs('mb.inicio')">
           {{ __('Inicio') }}
       </x-frontend.mb.layouts.navigation-link>
@@ -13,10 +16,10 @@
       {{-- <x-frontend.mb.layouts.navigation-link :href="route('mb.equipo-paulino')" :active="request()->routeIs('mb.equipo-paulino')">
           {{ __('Equipo Paulino') }}
       </x-frontend.mb.layouts.navigation-link> --}}
-      <x-frontend.mb.layouts.navigation-link href="#" :active="request()->routeIs('mb.equipo-paulino')">
+      <x-frontend.mb.layouts.navigation-link href="https://colegiocristianoberea.org/" target="_new">
         {{ __('Fundación Educativa Bendición') }}
       </x-frontend.mb.layouts.navigation-link>
-      <x-frontend.mb.layouts.navigation-link href="#" :active="request()->routeIs('mb.equipo-paulino')">
+      <x-frontend.mb.layouts.navigation-link :href="route('mb.agua-bendicion')" :active="request()->routeIs('mb.agua-bendicion')">
         {{ __('Agua Bendición') }}
       </x-frontend.mb.layouts.navigation-link>
       {{-- <x-frontend.mb.layouts.navigation-link :href="route('mb.red-iglesias')" :active="request()->routeIs('mb.red-iglesias')">

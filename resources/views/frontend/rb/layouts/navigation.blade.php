@@ -9,6 +9,9 @@
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1 hidden lg:flex gap-2">
+                <x-frontend.mb.layouts.navigation-link :href="route('portada')" :active="request()->routeIs('portada')">
+                    {{ __('Portada') }}
+                </x-frontend.mb.layouts.navigation-link>
                 <x-frontend.rb.layouts.navigation-link :href="route('rb.inicio')" :active="request()->routeIs('rb.inicio')">
                     {{ __('Inicio') }}
                 </x-frontend.rb.layouts.navigation-link>
@@ -18,7 +21,7 @@
                 <x-frontend.rb.layouts.navigation-link :href="route('rb.equipo-paulino')" :active="request()->routeIs('rb.equipo-paulino')">
                     {{ __('Equipo Paulino') }}
                 </x-frontend.rb.layouts.navigation-link>
-                <x-frontend.rb.layouts.navigation-link href="#" :active="request()->routeIs('rb.red-iglesias')">
+                <x-frontend.rb.layouts.navigation-link :href="route('rb.proyectos')" :active="request()->routeIs('rb.proyectos')">
                     {{ __('Proyectos') }}
                 </x-frontend.rb.layouts.navigation-link>
                 <x-frontend.rb.layouts.navigation-link :href="route('rb.contactos')" :active="request()->routeIs('rb.contactos')">

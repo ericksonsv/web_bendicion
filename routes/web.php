@@ -1,11 +1,12 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('portada');
 
 // MINISTERIOS BENDICIÓN ROUTES
 
@@ -15,6 +16,8 @@ Route::prefix('ministerios-bendicion')->group(function () {
     Route::prefix('sobre-nosotros')->group(function () {
         Route::view('declaracion-doctrinal', 'frontend.mb.pages.declaracion-doctrinal')->name('mb.declaracion-doctrinal');
     });
+    Route::view('fundacion-educativa-bendicion', 'frontend.mb.pages.fundacion-educativa-bendicion')->name('mb.fundacion-educativa-bendicion');
+    Route::view('agua-bendicion', 'frontend.mb.pages.agua-bendicion')->name('mb.agua-bendicion');
     Route::view('equipo-paulino', 'frontend.mb.pages.equipo-paulino')->name('mb.equipo-paulino');
     Route::view('red-iglesias', 'frontend.mb.pages.red-iglesias')->name('mb.red-iglesias');
     Route::view('contacto', 'frontend.mb.pages.contacto')->name('mb.contactos');
@@ -29,13 +32,18 @@ Route::prefix('red-bendicion')->group(function () {
         Route::view('declaracion-doctrinal', 'frontend.rb.pages.declaracion-doctrinal')->name('rb.declaracion-doctrinal');
     });
     Route::view('equipo-paulino', 'frontend.rb.pages.equipo-paulino')->name('rb.equipo-paulino');
+    Route::view('proyectos', 'frontend.rb.pages.proyectos')->name('rb.proyectos');
     Route::view('red-iglesias', 'frontend.rb.pages.red-iglesias')->name('rb.red-iglesias');
     Route::view('contacto', 'frontend.rb.pages.contacto')->name('rb.contactos');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard', [DashboardController::class, 'index'])
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
+
+Route::get('/dashboard/link-category/{id}', [DashboardController::class, 'links'])
+    ->middleware(['auth', 'verified'])
+    ->name('links');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

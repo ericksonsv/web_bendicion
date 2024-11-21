@@ -9,6 +9,9 @@
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1 hidden lg:flex gap-2">
+                <x-frontend.mb.layouts.navigation-link :href="route('portada')" :active="request()->routeIs('portada')">
+                    {{ __('Portada') }}
+                </x-frontend.mb.layouts.navigation-link>
                 <x-frontend.mb.layouts.navigation-link :href="route('mb.inicio')" :active="request()->routeIs('mb.inicio')">
                     {{ __('Inicio') }}
                 </x-frontend.mb.layouts.navigation-link>
@@ -21,12 +24,12 @@
                 <x-frontend.mb.layouts.navigation-link :href="route('mb.red-iglesias')" :active="request()->routeIs('mb.red-iglesias')">
                     {{ __('Red de Iglesias') }}
                 </x-frontend.mb.layouts.navigation-link> --}}
-                <x-frontend.mb.layouts.navigation-link href="#" :active="request()->routeIs('mb.equipo-paulino')">
+                <x-frontend.mb.layouts.navigation-link href="https://colegiocristianoberea.org/" target="_new">
                     {{ __('Fundación Educativa Bendición') }}
-                </x-frontend.mb.layouts.navigation-link>
-                <x-frontend.mb.layouts.navigation-link href="#" :active="request()->routeIs('mb.equipo-paulino')">
+                  </x-frontend.mb.layouts.navigation-link>
+                  <x-frontend.mb.layouts.navigation-link :href="route('mb.agua-bendicion')" :active="request()->routeIs('mb.agua-bendicion')">
                     {{ __('Agua Bendición') }}
-                </x-frontend.mb.layouts.navigation-link>
+                  </x-frontend.mb.layouts.navigation-link>
                 <x-frontend.mb.layouts.navigation-link :href="route('mb.contactos')" :active="request()->routeIs('mb.contactos')">
                     {{ __('Contactos') }}
                 </x-frontend.mb.layouts.navigation-link>
